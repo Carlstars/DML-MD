@@ -33,7 +33,7 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "ANTICALL":
@@ -57,7 +57,7 @@
     ,
     "BOT_NAME" : {
        
-      "description":"put A name for your bot",
+      "description":"cally-stars",
       "value":"DML-MD",
       "required":false
 
@@ -87,7 +87,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"DML-MD~aFlERSID#vDFSMVVWdBkiXbtIOf4X9tNShus5AOv8soPEpiZeBjc",   
       "value":"",
       "required":true
       
@@ -95,14 +95,14 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "cally-stars",
     "required": false,
     "value": "DML"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of tanzania '255')",
+    "desc": "254745115188",
     "required":true,
     "value": ""
   },
@@ -120,7 +120,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"recording",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
