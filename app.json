@@ -33,7 +33,7 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "ANTICALL":
@@ -57,7 +57,7 @@
     ,
     "BOT_NAME" : {
        
-      "description":"put A name for your bot",
+      "description":"cally-stars",
       "value":"DML-MD",
       "required":false
 
@@ -87,7 +87,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0NjZjZuNXp3RE1rMDczVk42RUcwSTVUREh4VWhuU0hJd2gxMVJ4anZuST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ2FzV1NJb05PVW5EWUhrQUkrQ01yYkVKKzBQY2dDKzIzd2UvMDhBQzJ3VT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI2UGxXU1lNeGpJU2RVQlFObElmRUFtN0JwUlphUzM4c3ptUFlTamtHRGxVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJUdjFqajgxNExjYmFqcWwva1p6UEpJZm9KK0tSeklHS3VJTlRlVVArV0dnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImFMTnJZQ0NQUTFNdXRQMnVueW5xY1lISHNkQ3NxQm5ZSWdGSEROZlR2RXc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklYd0h4UzBqMHFKMU0wbm00QVJLT2daTUc2NjdQSWlnbkxFT2ZBam4xV289In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUlNK3hsVk5aK0g2RWh4K1lBZVNpV2VEZVNvN1RaRXJ3YVNFWWtKOFVFYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR3czQUQzaE5vbEdoYnRTcEh1d00vL3l0c2crT04vc2xpaGZJd3FzMlRrVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVlUXdsQ2ppc3VZRHpTQUx5ZExobGdDZGh1TUZMTnAyRXUySTBJZkVuMmJjcjJ4QXNXT1MrQ3RQbVl6L2VjdDVTdTYyUFBmK05IWDZLSUtaV0t5bkFBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTUsImFkdlNlY3JldEtleSI6IkNmNlNqQmgzU1ZtUDlMSWpZdDB2SlplSllCMDNiUDdlRlY0Q2ZFUm9MOEU9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjU0NzQ1MTE1MTg4QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IjUyQ0VFNTZBNzE0RTBEREE3MUFGMkJDMEFCQzNENzQ1In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3NTAzNjgwNjZ9LHsia2V5Ijp7InJlbW90ZUppZCI6IjI1NDc0NTExNTE4OEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIxQUFGNkIyNjJCOUNFMUZEREREQUVGOTBFMzg2NTk0RCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzUwMzY4MDc1fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiIxMjNMT1RVUyIsIm1lIjp7ImlkIjoiMjU0NzQ1MTE1MTg4OjI4QHMud2hhdHNhcHAubmV0IiwibGlkIjoiMTk2MjExOTIzNTA1MjA1OjI4QGxpZCIsIm5hbWUiOiJIZWFydGJyZWFrZXIg8J+ltSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSmVsM1A0SEVLLyswY0lHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiRnhidnJRdWtuQTVkbmxVZWlwaUFlU2ZDL21LdTA2aUpLYmxlVXdPVFAxRT0iLCJhY2NvdW50U2lnbmF0dXJlIjoia0d2UzRrdkt4ZW5JQUllRHEwaThsTE1TY0JaYVUzTGRlKzNRRmlCTTYwbExRU0NieGh6T25uUTg4ZFQyUHd0aC9GZkNEWnU1QkltdlpMZzdJV2p4Q1E9PSIsImRldmljZVNpZ25hdHVyZSI6IlptdS85ZXFMS08zOGpmYVd3VDBBMEdKd0RtMUlET0VFenVTK3NEUjNiQ3ZPdXFSWXBWR3hZQldBbGV5UWZ4Qm1ucHdqMDkvYzVicGNyc2xMMWRieEF3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzQ1MTE1MTg4OjI4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlJjVzc2MExwSndPWFo1VkhvcVlnSGtud3Y1aXJ0T29pU201WGxNRGt6OVIifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNCSUlDQT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1MDM2ODA2MiwibGFzdFByb3BIYXNoIjoiM1I5WjM5IiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFDeCsifQ==",   
       "value":"",
       "required":true
       
@@ -95,14 +95,14 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "cally-stars",
     "required": false,
     "value": "DML"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of tanzania '255')",
+    "desc": "254745115188",
     "required":true,
     "value": ""
   },
@@ -120,7 +120,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"recording",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
